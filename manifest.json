@@ -1,0 +1,23 @@
+{
+  "name": "AppName",
+  "description": "AppDescription",
+  "version": "1.0.0.0",
+  "short_name": "AppShortName",
+  "manifest_version":2,
+  "app": {
+    "launch":{
+        "local_path": "index.html",
+        "container": "tab"
+    }
+  },
+  "background":{
+    "scripts":[]
+  },
+  "icons": { "16": "path/to/icon", "128": "path/to/icon" },
+  "permissions" : [
+    "storage"
+  ],
+  "web_accessible_resources": [
+    "web/accessible/resource"
+  ]
+}
